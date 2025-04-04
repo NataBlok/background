@@ -1,0 +1,519 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    position: absolute;
+    width: 1200px;
+    height: 630px;
+    top: 91px;
+    left: calc(50% - 1200px/2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 60px;
+    padding: 0 10px;
+}
+
+.service {
+    text-align: left;
+    width: 204px;
+    left: 10px;
+    top: 20px;
+}
+
+.service img {
+    width: 80px;
+    height: auto;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.service h3 {
+    margin: 0 0;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #555;
+    padding-top: 5px;
+}
+
+.newsletter {
+    text-align: left;
+    width: 350px;
+    font-size: 18px;
+    padding: 40px;
+}
+
+.newsletter input {
+    width: 253px;
+    height: 36px;
+    top: 54px;
+
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.green-bar {
+    position: absolute; /* Додано для позиціонування дочірніх елементів */
+    width: 1000px;
+    height: 88px;
+    top: 250px;
+    left: 200px;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 20px;
+}
+
+.green-bar img {
+    width: 150px;
+    height: 16px;
+
+}
+
+.green-bar .logo-group {
+    position: relative;
+    left: -670px;
+    top: 15px;
+    width: 20px;
+    height: 34px;
+    margin-bottom: 40px;
+}
+
+.green-bar .logo-vectors {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 77.13%;
+    top: 30%;
+    bottom: 10%;
+    background: white;
+
+}
+
+.green-bar .logo-vectors {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 70%;
+    bottom: 0;
+}
+
+.green-bar .logo-vectors .vector:nth-child(1) {
+    position: absolute;
+    left: 0;
+    right: 77.13%;
+    top: 0;
+    bottom: 0;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(2) {
+    position: absolute;
+    left: 26.65%;
+    right: 64.82%;
+    top: 31.33%;
+    bottom: 31.31%;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(3) {
+    position: absolute;
+    left: 36.41%;
+    right: 56.3%;
+    top: 31.98%;
+    bottom: 31.98%;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(4) {
+    position: absolute;
+    left: 44.56%;
+    right: 49.57%;
+    top: 31.98%;
+    bottom: 31.98%;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(5) {
+    position: absolute;
+    left: 51.76%;
+    right: 42.37%;
+    top: 31.98%;
+    bottom: 31.98%;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(6) {
+    position: absolute;
+    left: 58.97%;
+    right: 33.72%;
+    top: 31.32%;
+    bottom: 31.32%;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(7) {
+    position: absolute;
+    left: 67.39%;
+    right: 26.3%;
+    top: 31.31%;
+    bottom: 31.33%;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(8) {
+    position: absolute;
+    left: 74.93%;
+    right: 17.76%;
+    top: 31.98%;
+    bottom: 31.98%;
+
+    background: #46A358;
+}
+
+.green-bar .logo-vectors .vector:nth-child(9) {
+    position: absolute;
+    left: 83.46%;
+    right: 7.65%;
+    top: 31.31%;
+    bottom: 31.32%;
+
+    background: #46A358;
+}
+.green-bar .logo-vectors .vector:nth-child(10) {
+    position: absolute;
+    left: 93.58%;
+    right: 0;
+    top: 31.98%;
+    bottom: 31.98%;
+
+    background: #46A358;
+
+}
+.green-bar .address-info {
+    position: absolute; /* Додано для позиціонування іконок */
+    width: 10px;
+    height: 5px;
+    left: 310px;
+    top: 5px;
+}
+
+.green-bar .address-info:nth-child(2) {
+    position: relative;
+    width: 195px;
+    height: 0;
+    left: 308px;
+    top: 20px;
+    margin: 0;
+}
+
+.green-bar .address-info p {
+    position: relative;
+    width: 220px;
+    height: 54px;
+    left: 29px;
+    top: 0;
+    display: flex;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 15px;
+    /* or 157% */
+    padding-top: 5px;
+    color: #3D3D3D;
+    gap: 10px 10px;
+}
+
+.green-bar .address-info img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+
+}
+
+.green-bar .address-info .location-icon {
+    position: absolute;
+    left: 0;
+    top: 9px;
+
+}
+.address-info {
+    display: flex;
+    width: 10px;
+    height: 44px;
+    left: -80px;
+    top: 0;
+
+}
+
+.address-info p {
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    left: 29px;
+    top: 80px;
+    display: flex;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    color: #3D3D3D;
+}
+.green-bar .address-info .location-icon-inner {
+    width: 12.5px;
+    height: 15px;
+    left: 3.75px;
+    top: 50px;
+}
+
+.green-bar .address-info .location-stroke-1 {
+    position: absolute;
+    left: 39.63%;
+    right: 39.54%;
+    top: 34.21%;
+    bottom: 44.96%;
+    border: 1.5px solid #46A358;
+}
+
+.green-bar .address-info .location-stroke-3 {
+    position: absolute;
+    left: 18.75%;
+    right: 18.75%;
+    top: 12.5%;
+    bottom: 12.5%;
+    border: 1.5px solid #46A358;
+}
+
+.green-bar .address-info:nth-child(4) {
+    left: 1010px;
+    top: 0;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.green-bar .address-info:nth-child(4) p {
+    width: 112px;
+    height: 22px;
+    left: 10px;
+    font-family: Cera Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #3D3D3D;
+
+}
+
+.green-bar .address-info .calling-icon {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+}
+
+.green-bar .address-info .calling-icon-inner {
+    position: absolute;
+    width: 140px;
+    height: 22px;
+    top: 33px;
+    left: 1038px;
+
+}
+
+.green-bar .address-info:nth-child(3) {
+    left: 688px;
+    top: 30px;
+}
+
+.green-bar .address-info:nth-child(3) p {
+    width: 145px;
+    height: 22px;
+    left: 30px;
+
+}
+
+.green-bar .address-info .message-icon {
+
+    left: 0;
+    top: 1px;
+    padding-bottom: 100px;
+}
+
+.green-bar .address-info .message-icon-inner {
+    width: 205px;
+    height: 44px;
+    top: 25px;
+    left: 328px;
+    position: absolute;
+}
+
+
+
+.address-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+
+}
+
+.address-info p {
+    position: relative;
+    width: 176px;
+    height: 44px;
+    left: 29px;
+    top: 10px;
+    display: flex;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    color: #3D3D3D;
+
+}
+
+.footer-links {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 870px;
+    height: 236px;
+    top: 350px;
+    left: -145px;
+}
+
+.footer-links div {
+    text-align: left;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: right;
+    width: 210px;
+    gap: 16px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    width: 100px;
+    height: 154px;
+    top: 33px;
+    margin-left: 120px;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+    gap: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 18px;
+}
+
+.social-media, .payment-methods {
+    text-align: left;
+    padding: 10px;
+    width: 170px;
+    height: 290px;
+    line-height: 40px;
+    margin-left: 810px;
+    font-size: 16px;
+}
+
+.social-icons, .payment-icons {
+    display: flex;
+    gap: 0;
+    justify-content: right;
+
+}
+
+.social-icons img {
+    height: 15px;
+    width: 15px;
+    transition: transform 0.1s ease;
+    top: 300px;
+
+}
+.payment-icons img {
+    display: flex;
+    padding-top: 0;
+    position: absolute;
+    left: 820px;
+}
+
+.copyright {
+    position: absolute;
+    width: 257px;
+    height: 30px;
+    left: 471px;
+    top: 620px;
+
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    color: #3D3D3D;
+}
+.copyright p {
+    position: absolute;
+    font-size: 15px;
+    color: #666;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.social-icon {
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #46A35833;
+}
+
